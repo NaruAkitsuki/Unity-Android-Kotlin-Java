@@ -1,3 +1,2 @@
 include ':samplelibrary'
-include ':app'
 rootProject.name = "SamplePluginProject"
