@@ -14,8 +14,8 @@ object SampleObject {
 
 class SampleKotlin {
     companion object {
-        fun SampleCompanionObjectFunction() {
-            Log.d("TEST", "SampleCompanionObjectFunction")
+        @JvmStatic fun SampleJvmCompanionObjectFunction() {
+            Log.d("TEST", "SampleJvmCompanionObjectFunction")
         }
     }
 
