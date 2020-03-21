@@ -10,14 +10,4 @@ public class SampleJava {
     public void sampleInstanceMethod() {
         Log.d("TEST", "sampleInstanceMethod");
     }
-
-    public static class sampleInnerClass {
-        public static void sampleStaticMethodInner() {
-            Log.d("TEST", "sampleStaticMethodInner");
-        }
-
-        public void sampleInstanceMethodInner() {
-            Log.d("TEST", "sampleInstanceMethodInner");
-        }
-    }
 }
